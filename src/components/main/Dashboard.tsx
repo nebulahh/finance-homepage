@@ -5,14 +5,12 @@ import TotalBalance from "./TotalBalance.tsx"
 
 function Dashboard() {
   return (
-    <main className="lg:grid flex lg:items-baseline lg:mx-14 items-center flex-col gap-[25px] absolute w-[92%] top-60 lg:grid-cols-[30%_1fr]">
-      <section>
-        <div className="flex flex-col gap-[25px]">
+    <main className="lg:grid flex lg:items-baseline lg:mx-14 items-center flex-col gap-[25px] absolute w-[92%] md:left-[30px] lg:left-0 top-60 lg:grid-cols-[30%_1fr]">
+      <section className="flex flex-col md:flex md:flex-row-reverse lg:flex lg:flex-col gap-[25px]">
         <TotalBalance />
         <SavingsPlan />
-      </div>
       </section>
-      <section className="flex flex-col lg:w-full w-[22rem]">
+      <section className="flex flex-col md:flex md:flex-row md:gap-9 md:justify-center md:w-full lg:flex-col  lg:w-full w-[22rem]">
         <IncomeExpense />
         <HistoryTable />
       </section>

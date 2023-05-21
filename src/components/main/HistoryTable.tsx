@@ -48,7 +48,7 @@ export default function HistoryTable() {
 
     return (
         <>
-            <div className="max-w-screen-xl lg:w-full w-[23rem] mt-4 mx-auto p-4 rounded-3xl border border-solid border-[wheat] md:px-8 box">
+            <div className="max-w-screen-xl lg:w-full md:m-0 lg:mx-auto w-[23rem] mt-4 mx-auto p-4 rounded-3xl border border-solid border-[wheat] md:px-8 box">
             <div className="items-start justify-between md:flex">
                 <div className="max-w-lg">
                     <h3 className="text-gray-800 font-bold sm:text-1xl">

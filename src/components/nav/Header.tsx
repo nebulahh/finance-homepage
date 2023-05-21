@@ -23,7 +23,7 @@ export default function Header() {
 
     return (
         <header className="text-base flex h-72 flex-col px-8 lg:text-sm bg-[#1c2438]">
-            <div className={`items-center bg-[#1c2438] gap-x-14 px-4 max-w-screen-xl lg:mx-0 lg:flex lg:static ${state ? "h-full fixed inset-x-0" : ""}`}>
+            <div className={`items-center bg-[#1c2438] gap-x-14 px-4 max-w-screen-xl lg:mx-0 lg:flex lg:static ${state ? "h-full fixed z-10 inset-x-0" : ""}`}>
                 <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
                     <a href="#">
                         <img

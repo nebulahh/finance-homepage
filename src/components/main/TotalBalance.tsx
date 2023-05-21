@@ -3,7 +3,7 @@ import imgUrl from '../../assets/mastercard.png'
 
 function TotalBalance() {
   return (
-    <div className="bg-white flex border border-solid border-[wheat] justify-between flex-col w-80 rounded-lg p-8 box">
+    <div className="md:self-start bg-white flex border border-solid border-[wheat] justify-between flex-col w-80 rounded-lg p-8 box">
       <div className="flex justify-between text-gray-400 items-center">
         <p>Your Balance</p>
         <p className='flex items-center'>
