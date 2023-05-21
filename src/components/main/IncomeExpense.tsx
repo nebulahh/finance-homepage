@@ -21,7 +21,7 @@ function IncomeExpense() {
     }
   
   return (
-    <div className="box lg:grid rounded-3xl mb-4 bg-white border border-solid border-[wheat] flex flex-col w-[22rem] lg:w-full lg:grid-cols-2 lg:auto-rows-[150px]">
+    <div className="box max-[350px]:w-full lg:grid rounded-3xl mb-4 bg-white border border-solid border-[wheat] flex flex-col w-[22rem] lg:w-full lg:grid-cols-2 lg:auto-rows-[150px]">
       <div className="lg:border-r p-6 flex flex-col justify-between lg:border-r-gray-400 border-b border-b-gray-400">
         <div className='flex justify-between gap-5'>
           <p className='text-gray-400'>Total Income</p>

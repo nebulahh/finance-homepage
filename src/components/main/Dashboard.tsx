@@ -5,7 +5,7 @@ import TotalBalance from "./TotalBalance.tsx"
 
 function Dashboard() {
   return (
-    <main className="lg:grid flex lg:items-baseline lg:mx-14 items-center flex-col gap-[25px] absolute w-[92%] md:left-[30px] lg:left-0 top-60 lg:grid-cols-[30%_1fr]">
+    <main className="lg:grid flex lg:items-baseline lg:mx-14 items-center flex-col gap-[25px] absolute w-[92%] md:left-[30px] max-[350px]:w-full max-[350px]:top-[16rem] lg:left-0 top-60 lg:grid-cols-[30%_1fr]">
       <section className="flex flex-col md:flex md:flex-row-reverse lg:flex lg:flex-col gap-[25px]">
         <TotalBalance />
         <SavingsPlan />
