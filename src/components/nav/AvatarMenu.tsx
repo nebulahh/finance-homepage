@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react"
-import { MdOutlineKeyboardArrowDown } from "react-icons/md"
 import imgUrl from '../../assets/user.jpg'
 
 export default function AvatarMenu() {

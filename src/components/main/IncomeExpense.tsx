@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import { MdOutlineSavings } from 'react-icons/md'
-import { GiExpense } from 'react-icons/gi'
-import { AiOutlineArrowUp, AiOutlineArrowDown } from 'react-icons/ai'
+import { IconArrowNarrowUp, IconArrowNarrowDown, IconPigMoney, IconCreditCard } from '@tabler/icons-react';
 
 function IncomeExpense() {
   const [visibility1, setVisibility1] = useState('hidden') 
@@ -27,13 +25,13 @@ function IncomeExpense() {
       <div className="lg:border-r p-6 flex flex-col justify-between lg:border-r-gray-400 border-b border-b-gray-400">
         <div className='flex justify-between gap-5'>
           <p className='text-gray-400'>Total Income</p>
-      <p className='bg-shade ring-offset-2 p-1 outline-none ring-offset-gray-200 ring-gray-200 lg:ring-2'>
-          <MdOutlineSavings />
+      <p className='bg-shade ring-offset-2 flex items-center outline-none ring-offset-gray-200 ring-gray-200 lg:ring-2'>
+          <IconPigMoney height="15" />
           </p>
         </div>
          <b className='text-2xl'>$10,456.00</b>
         <p className='flex items-center gap-1'>
-          <AiOutlineArrowUp />
+      <IconArrowNarrowUp height="15" />
           +12.1% from last weeks</p>
     
       </div>
@@ -69,13 +67,13 @@ function IncomeExpense() {
       <div className="lg:border-r flex-col p-6 max-[1100px]:border-b max-[1100px]:border-b-gray-400 lg:border-r-gray-400 flex justify-between">
         <div className='flex justify-between gap-5'>
           <p className='text-gray-400'>Total Expense</p>
-        <p className='bg-shade ring-offset-2 p-1 outline-none ring-offset-gray-200 ring-gray-200 lg:ring-2'>
-          <GiExpense />
+        <p className='bg-shade ring-offset-2 flex items-center p-1 outline-none ring-offset-gray-200 ring-gray-200 lg:ring-2'>
+          <IconCreditCard height="15" />
           </p>  
         </div>
          <b className='text-2xl'>$2,456.00</b>
         <p className='flex items-center gap-1'>
-          <AiOutlineArrowDown />
+          <IconArrowNarrowDown height="15" />
           -2.5% from last weeks</p>
       </div>
       

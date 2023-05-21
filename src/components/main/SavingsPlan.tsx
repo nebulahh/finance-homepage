@@ -1,7 +1,4 @@
-import { AiFillCar } from 'react-icons/ai'
-import { GiGamepad } from 'react-icons/gi'
-import { GiGlassCelebration } from 'react-icons/gi'
-
+import { IconCar, IconConfetti, IconDeviceGamepad2 } from '@tabler/icons-react';
 
 const savings = [
   {
@@ -9,21 +6,21 @@ const savings = [
     monthly_savings: '500',
     target: '25,000.00',
     curr_saving: '5,000.00',
-    icon: <AiFillCar />,
+    icon: <IconCar />,
   },
     {
     plan: 'Marraiage plan',
     monthly_savings: '100.00',
     target: '25,000.00',
       curr_saving: '351.00',
-    icon: <GiGlassCelebration />
+    icon: <IconConfetti />,
   },
   {
     plan: 'Buy  PS5',
     monthly_savings: '100',
     target: '1,000.00',
     curr_saving: '300.00',
-    icon: <GiGamepad />
+    icon: <IconDeviceGamepad2 />,
   }
 ]
 
@@ -37,6 +34,7 @@ function SavingsPlan() {
             <div className="flex mb-4 items-center justify-between">
               <p className='bg-shade ring-offset-2 p-1 outline-none ring-offset-gray-200 ring-gray-200 lg:ring-2'>
                 {plan.icon}
+
               </p>
               <div>
                 <p>{plan.plan}</p>

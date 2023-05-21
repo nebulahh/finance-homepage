@@ -1,7 +1,7 @@
 import { useState } from "react"
 import AvatarMenu from "./AvatarMenu.tsx"
 import imgUrl from '../../assets/mastercard.png'
-import { BsBell } from 'react-icons/bs'
+import { IconBell } from '@tabler/icons-react';
 
 export default function Header() {
 
@@ -80,7 +80,7 @@ export default function Header() {
                             </form>
                             
                             <div className="rounded-full cursor-pointer bg-[#1c2438] ring-offset-2 p-1 outline-none ring-offset-[#1c2438] ring-gray-200 lg:ring-2">
-                            <BsBell className="w-5 h-5 text-gray-400" />                  
+                            <IconBell className="w-5 h-5 text-gray-400" />                  
                             </div>
                         <AvatarMenu />
               </li>

@@ -1,4 +1,4 @@
-import { AiOutlineArrowDown } from 'react-icons/ai';
+import { IconArrowNarrowDown } from '@tabler/icons-react';
 import imgUrl from '../../assets/mastercard.png'
 
 function TotalBalance() {
@@ -12,7 +12,7 @@ function TotalBalance() {
           </span>
           ****3241
           <span>
-            <AiOutlineArrowDown />
+            <IconArrowNarrowDown />
           </span>
         </p>
       </div>
